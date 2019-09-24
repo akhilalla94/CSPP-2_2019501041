@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - main1",
+            "request": "launch",
+            "mainClass": "main1",
+            "projectName": "CSPP-2_2019501041_3ef069cd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - main",
+            "request": "launch",
+            "mainClass": "MODULE1.ASSIGNMENT4.main",
+            "projectName": "CSPP-2_2019501041_3ef069cd"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TestRunner",
             "request": "launch",
             "mainClass": "MODULE1.ASSIGNMENT3.TestRunner",
