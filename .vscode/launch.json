@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - mainfun",
+            "request": "launch",
+            "mainClass": "MODULE3.ASSIGNMENT7.mainfun",
+            "projectName": "CSPP-2_2019501041_3ef069cd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - inc",
+            "request": "launch",
+            "mainClass": "MODULE3.ASSIGNMENT1.inc",
+            "projectName": "CSPP-2_2019501041_3ef069cd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sample",
+            "request": "launch",
+            "mainClass": "MODULE3.ASSIGNMENT1.sample",
+            "projectName": "CSPP-2_2019501041_3ef069cd"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - main1",
             "request": "launch",
             "mainClass": "main1",
