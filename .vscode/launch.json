@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - print",
+            "request": "launch",
+            "mainClass": "print",
+            "projectName": "CSPP-2_2019501041_3ef069cd"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - mainfun",
             "request": "launch",
             "mainClass": "MODULE3.ASSIGNMENT7.mainfun",
