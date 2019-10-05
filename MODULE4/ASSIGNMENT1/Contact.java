@@ -33,7 +33,7 @@ class Contact {
         this.email = e;
         this.phoneNumber = p;
     }
-    // "{ Name = akhil, Email = akhilalla1994@gmail.com, Phone Number = 9000402702 }"
+    // "{ Name = akhil, Email = .com, Phone Number = 9999912345 }"
 
     public String toString() {
         return "{ Name = " + this.name + ", Email = " + this.email

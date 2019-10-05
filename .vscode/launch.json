@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - func4",
+            "request": "launch",
+            "mainClass": "func4",
+            "projectName": "CSPP-2_2019501041_3ef069cd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - func",
+            "request": "launch",
+            "mainClass": "func",
+            "projectName": "CSPP-2_2019501041_3ef069cd"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - print",
             "request": "launch",
             "mainClass": "print",
