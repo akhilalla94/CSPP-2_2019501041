@@ -72,7 +72,7 @@ public class List {
      * The purpose of the constructor is to initialize the
      * class variables with some default values.
      */
-    public List() {
+    List() {
 
         // what are the two variables to be initialized here?
         // think about the private variables described above.
@@ -198,6 +198,12 @@ public class List {
      */
     public String toString() {
         // Your code goes here.....
+        String out="[";
+        for (int i = 0; i < size - 1; i++) {           
+             out = out + list[i] + ",";       
+        }     
+        out = out + list[size - 1] + "]";   
+        return out; 
         
     } 
     
@@ -209,6 +215,13 @@ public class List {
      */
     public boolean contains(int item) {
         // Your code goes here.....
+        for(int i=0;i<size-1;i++){
+            if(list[i]==item){
+                return true;
+            }
+        }
+        return false;
+
     }
 
     /*
@@ -218,6 +231,12 @@ public class List {
      */
     public int indexOf(int item) {
         // Your code goes here.....
+        for(int i=0;i<size-1;i++){
+            if(list[i]==item){
+                return i;
+            }
+        }
+        return -1;
     }
 
     /**

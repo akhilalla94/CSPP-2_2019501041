@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MainToDo",
+            "request": "launch",
+            "mainClass": "MODULE5.MainToDo",
+            "projectName": "CSPP-2_2019501041_3ef069cd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sollu",
+            "request": "launch",
+            "mainClass": "Sollu",
+            "projectName": "CSPP-2_2019501041_3ef069cd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "CSPP-2_2019501041_3ef069cd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Clock",
+            "request": "launch",
+            "mainClass": "Clock",
+            "projectName": "CSPP-2_2019501041_3ef069cd"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - func4",
             "request": "launch",
             "mainClass": "func4",
